@@ -1,0 +1,133 @@
+body {
+  background: url(images.png) ;
+/*   height: 100%;
+  width: 100%; */
+}
+
+/*.circle{
+  margin-left:25px;
+  border-radius: 50%;
+  width: "200";
+  height: "160";
+  border: "5";
+  border-color: white;
+  Grid-column: 1/span 8;
+  Grid-row: 1;
+  Padding-top: 20%;
+  z-index: 1;
+}*/
+
+button.black{
+  background-color: black;
+    color: white;
+    padding: 16px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+  font-size: 15px;
+  border-radius: 10px;
+  margin-left: 1rem;
+}
+button.blank{
+  background: none;
+  color: black;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 40%;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 10px;
+}
+
+.part1{
+  width:35%;
+  margin-left: 25px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  display: inline;
+  float: right;
+}
+
+li a {
+  display: block;
+  color: black;
+      padding: 10px 16px;
+  text-align: center;
+  background-color: none;
+  text-decoration: none;
+}
+.container{
+  width:27%;
+  margin-left: 15px;
+}
+
+form {
+  border: 3px solid #9E9281;
+  padding: 10px;
+  width: 83%;
+  margin: auto;
+background: #9E9282;
+box-shadow: 0px 2.18374px 8.00705px rgba(0, 0, 0, 0.06), 0px 7.27914px 10.9187px rgba(0, 0, 0, 0.03);
+border-radius: 14.5583px;
+}
+
+input[type=text], input[type=password], input[type=email] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  color: black;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+input[type=submit]{
+  background-color: black;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 10px;
+  font-size: 12px;
+}
+
+button{
+  background-color: black;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  font-size: 12px;
+  border-radius: 10px;
+}
+
+.tac{
+  text-decoration: none;
+  color: blue;
+}
+
+.last{
+  color: white;
+  text-align: center;
+}
+
+.signup{
+  text-decoration: none;
+  color: black;
+}
